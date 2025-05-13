@@ -1,0 +1,9 @@
+# Ignore all __pycache__ directories within backend
+backend/**/__pycache__/
+backend/**/*.py[cod]
+
+# don't commit the .env file
+backend/.env
+
+# Ignore node_modules in frontend
+frontend/node_modules/
